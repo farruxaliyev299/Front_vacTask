@@ -1,0 +1,455 @@
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: medium;
+    margin-bottom: 0px;
+}
+
+.navbar{
+    display: block;
+    background-color: whitesmoke;
+    padding: 25px;
+    margin-top: -10px;
+    margin-left: -9px;
+    margin-right: -8px;
+    margin-bottom: -20px;
+    top: 0;
+    width: 100%;
+}
+
+.leftnav , .rightnav{
+    display: inline-block;
+}
+
+.leftnav a , .rightnav a{
+    text-decoration: none;
+    padding: 9px;
+    color:black;
+}
+
+.leftnav a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-left: 350px;
+}
+
+.rightnav{
+    margin-right: 250px;
+}
+
+.rightnav a{
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+.rightnav a:hover{
+    color: grey;
+}
+
+.leftnav a::before{
+    display: inline;
+    /* content: url(./imagefixed.png); */
+}
+
+.rightnav{
+    float:right;
+}
+
+.overlay{
+    display: inline-block;
+    background-image: url(./images/background.jpeg);
+    /* background-repeat: no-repeat;
+    background-position-y: -380px ; */
+    background-attachment: fixed;
+    /* background-size: cover; */
+    width:1903px;
+    height: 800px;
+    margin-top: 20px;
+    margin-right: -10px;
+    margin-left: -8px;
+    filter: brightness(80%) saturate(90%);   
+}
+
+
+
+.bluesquare{
+    margin-left: -8px;
+    position: absolute;
+    display: inline;
+    width:800px;
+    height:800px;
+    background-color:rgb(0, 71, 171,0.8);
+}
+
+div.olheader{
+    position: absolute;
+    display: inline;
+    margin-top: 250px;
+    margin-left: 450px;
+}
+
+div.olheader h2 ,div.olheader h2 pre{
+    display: inline;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+
+div.olheader h3 {
+    display: inline;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-left: -150px;
+    margin-top: -20px;
+}
+
+div.olheader h3 pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.white-square{
+    margin-left: 0px;
+    margin-top: -4px;
+    position: absolute;
+    display: inline;
+    width:800px;
+    height:560px;
+    background-color:#dbe9f4;
+    opacity: 60%;
+}
+
+.o2-header{
+    margin-top: -13px;
+    display: inline-block;
+}
+
+.o2-header pre{
+    position: absolute;
+    font-size: 45px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 442px;
+    margin-top: 100px;
+    color: rgb(15,76,133);
+}
+
+.overlay2{
+    margin-left: -16px;
+    margin-top: -15px;
+    display: inline-block;
+    width:1903px;
+    height:560px;
+}
+
+.o2-content{
+    float: right;
+    display: inline;
+    width: 1100px;
+}
+
+/* .o2-content div{
+    float: right;
+    display: inline-block;
+    margin-left: 840px;
+    margin-top: 80px;
+} */
+
+.overlay2 p{
+    color: rgb(15,76,133);
+}
+
+.o2-content-1{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 90px;
+}
+.o2-content-2{
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 90px;
+}
+
+.o2-content-3{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.o2-content-4{
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.o2-content-5{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.o2-content-6{
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.o2-content div p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.o2-content div p.o2-content-header-1{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.o2-content div p.o2-content-desc-1{
+    color: rgb(15,76,133);
+    font-size: 14px;
+}
+
+.o2-content div p.o2-content-header-2{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.o2-content div p.o2-content-desc-2{
+    color: rgb(15,76,133);
+    font-size: 14px;
+}
+
+.o2-content div p.o2-content-header-3{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.o2-content div p.o2-content-desc-3{
+    color: rgb(15,76,133);
+    font-size: 14px;
+}
+
+.o2-content div p.o2-content-header-4{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.o2-content div p.o2-content-desc-4{
+    color: rgb(15,76,133);
+    font-size: 14px;
+}
+
+.o2-content div p.o2-content-header-5{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.o2-content div p.o2-content-desc-5{
+    color: rgb(15,76,133);
+    font-size: 14px;
+}
+
+.o2-content div p.o2-content-header-6{
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.o2-content div p.o2-content-desc-6{
+    color: rgb(15,76,133);
+    font-size: 14px;
+}
+
+.overlay3{
+    display: block;
+    margin-top: -5px;
+    margin-left: -8px;
+    width: 1903px;
+    height: 643px;
+    background-color: #00305b;
+    /* position: absolute; */
+}
+
+.o3-content p.o3-header{
+    position: absolute;
+    color:#e5eaee;
+    font-size: 42px;
+    margin-left: 830px;
+    margin-top: 110px;
+}
+
+.o3-content p.o3-desc-1{
+    position: absolute;
+    font-size: 18px;
+    color: #e5eaee;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 505px;
+    margin-top: 250px;
+}
+
+.o3-content p.o3-desc-2{
+    position: absolute;
+    font-size: 18px;
+    color: #e5eaee;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 505px;
+    margin-top: 340px;
+}
+
+.o3-content p.o3-desc-3{
+    position: absolute;
+    font-size: 18px;
+    color: #e5eaee;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 505px;
+    margin-top: 465px;
+}
+
+.overlay4{
+    display: block;
+    width: 1903px;
+    height: 771px;
+    margin-top: 0px;
+    margin-left: -8px;
+    background-image: url(./images/bosh_adamlar\ -\ Copy.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+}
+
+.overlay5{
+    display: inline-block;
+    width: 1903px;
+    height: 713px;
+    background-color: #eaf4f6;
+    margin-left: -8px;
+}
+
+p.o5-header{
+    margin-left: 780px;
+    margin-top: 105px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 42px;
+    color: rgb(0,48,91);
+}
+
+.o5-worker-1{
+    display: inline-block;
+    margin-left: 560px;
+    margin-right: 0px;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.o5-worker-photo-1 , .o5-worker-name-1, .o5-worker-desc-1 , .o5-worker-phone-1 , .o5-worker-email-1{
+
+    color: rgb(0,48,91);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.o5-worker-name-1{
+    font-size: 20px;
+}
+
+.o5-worker-desc-1{
+    font-size: 16px;
+}
+
+.o5-worker-phone-1{
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.o5-worker-email-1{
+    margin-top: 0px;
+}
+
+.o5-line-1{
+    width: 195px;
+    height: 1px;
+    background-color: #a6ccec;
+
+}
+
+.o5-worker-1 , .o5-worker-2 , .o5-worker-3{
+    display: inline-block;
+    width: 200px;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-align: center;
+}
+
+.o5-worker-2{
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 0px;
+}
+
+.o5-worker-photo-2 , .o5-worker-name-2, .o5-worker-desc-2 , .o5-worker-phone-2 , .o5-worker-email-2{
+
+    color: rgb(0,48,91);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.o5-worker-name-2{
+    font-size: 20px;
+}
+
+.o5-worker-desc-2{
+    font-size: 16px;
+}
+
+.o5-worker-phone-2{
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.o5-worker-email-2{
+    margin-top: 0px;
+}
+
+.o5-line-2{
+    width: 195px;
+    height: 1px;
+    background-color: #a6ccec;
+}
+
+.o5-worker-3{
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.o5-worker-photo-3 , .o5-worker-name-3, .o5-worker-desc-3 , .o5-worker-phone-3 , .o5-worker-email-3{
+
+    color: rgb(0,48,91);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.o5-worker-name-3{
+    font-size: 20px;
+}
+.o5-worker-desc-3{
+    font-size: 16px;
+}
+
+.o5-worker-phone-3{
+    margin-top: 30px;
+    margin-bottom: 3px;
+}
+
+.o5-worker-email-3{
+    margin-top: 0px;
+}
+
+.o5-line-3{
+    width: 195px;
+    height: 1px;
+    background-color: #a6ccec;
+}
